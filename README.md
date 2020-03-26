@@ -24,15 +24,7 @@ Once the Account Manager gave your credentails, you can visit these dashboard.
 **Development**: https://xload-development.appspot.com/endpoints<br/>
 **Live**: https://www.xload.io/endpoints
 
-> :warning: Important Reminder: Always use the Development Dashboard and Endpoints (see below) if you're testing your app.
-
-
-You can create multiple apps and manage users per app using your Partner Account.
-
-<br/>
-<p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/apps-and-users.jpg"/>
-</p>
+> :warning: Important Reminder: Always use the Development Dashboard if you're testing your app.
 
 
 ### Keywords
@@ -45,9 +37,21 @@ You can create multiple apps and manage users per app using your Partner Account
 
 # Coding Time!
 
+**Development**: https://xload-development.appspot.com<br/>
+**Live**: https://www.xload.io
+
+> :warning: Important Reminder: Always use the Development Endpoints (see below) if you're testing your app.
+
 <br/>
 
 ### 1. Create an App
+
+You can create multiple apps and manage users per app using your Partner Account.
+
+<br/>
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/apps-and-users.jpg"/>
+</p>
 
 You need an App ID when **Authenticating Users** on the XLD Platform found in step 2.
  
@@ -83,6 +87,8 @@ Body:
 
 ### 2. Authenticating a User
 
+Use XLoad to login and create a user ID that we used **3. Reward Users**
+
 ```
 [POST] /endpoints/login/device-id
 ```
@@ -112,6 +118,8 @@ Response:
 ```
 
 ### 3. Reward Users
+
+Send XLDs to your users
 
 ```
 [POST] /endpoints/reward
@@ -144,6 +152,8 @@ Response:
 ```
 
 ### 4. Check Balance
+
+Check how much XLD you have left in your Developer Account
 
 ```
 [GET] /endpoints/balance
