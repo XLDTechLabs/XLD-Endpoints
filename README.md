@@ -63,6 +63,9 @@ Sample: You received 10 XLD from Hello World.
 Header:
 - key [String]
 - secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
 ```
  
 ```
