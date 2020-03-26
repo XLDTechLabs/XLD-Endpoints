@@ -21,7 +21,7 @@ The library we use to:
 
 Once the Account Manager gave your credentails, you can visit these dashboard:
 
-**Development**: https://xload-development.appspot.com/endpoints
+**Development**: https://xload-development.appspot.com/endpoints <br/>
 **Live**: https://www.xload.io/endpoints
 
 
