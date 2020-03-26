@@ -153,7 +153,7 @@ Response:
 
 ### 4. Check Balance
 
-Check how much XLD you have left in your Developer Account
+Check how much XLD you have left in your Developer Account. You can also view your balance on the Dashboard.
 
 ```
 [GET] /endpoints/balance
