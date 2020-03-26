@@ -60,7 +60,7 @@ Sample: You received 10 XLD from Hello World.
 ```
 
 ```
-Header:
+Headers:
 - key [String]
 - secret [String]
 
@@ -72,5 +72,35 @@ Header:
 Body:
 {
   "name": [String]
+}
+```
+
+### 2. Authenticating a User
+
+```
+[POST] /endpoints/login/device-id
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+ 
+```
+Body:
+{
+  "device_id": [String],
+	"app_id": [String]
+}
+```
+
+```
+Response:
+{
+  "id": [String]
 }
 ```
