@@ -32,3 +32,9 @@ You can create multiple apps and manage users per app using your Partner Account
   <img width="800" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/apps-and-users.jpg"/>
 </p>
 
+
+## Keywords
+
+1. **Partner Key** and **Client Secret** - credentials you use to identify you on our platform. Get this on your dashboard.
+2. **User Key** - a unique set of characters to identify users when sending the rewards.
+3. **App ID** - a unique number or username to identify an app.
