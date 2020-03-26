@@ -89,6 +89,9 @@ Body:
 
 Use XLoad to login and create a user ID that we'll be used in **3. Reward Users**
 
+How to get the Device ID:
+- [Unity](https://github.com/XLDTechLabs/XLD-Endpoints/tree/master/Unity)
+
 ```
 [POST] /endpoints/login/device-id
 ```
