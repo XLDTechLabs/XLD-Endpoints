@@ -87,7 +87,7 @@ Body:
 
 ### 2. Authenticating a User
 
-Use XLoad to login and create a user ID that we used **3. Reward Users**
+Use XLoad to login and create a user ID that we'll be used **3. Reward Users**
 
 ```
 [POST] /endpoints/login/device-id
