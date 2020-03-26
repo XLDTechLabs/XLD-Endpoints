@@ -2,7 +2,7 @@
 
 <br/>
 
-### What is XLD Endpoints
+### What is XLD Endpoints?
 
 The library we use to:
 - Authenticate via [XLoad](https://www.xload.io)
