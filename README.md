@@ -127,7 +127,7 @@ Body:
   "reward": [Double]
 }
 
-* user_id - see **2. Authenticating a User**
+* user_id - This is the "id" return in 2. Authenticating a User
 ```
 
 ```
