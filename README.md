@@ -133,7 +133,7 @@ Body:
   "reward": [Double]
 }
 
-* user_id - This is the "id" return in 2. Authenticating a User
+* user_id - This is the "id" returned in 2. Authenticating a User
 ```
 
 ```
@@ -185,5 +185,5 @@ Body:
   "reward": [Double]
 }
 
-* user_id - This is the "id" return in 2. Authenticating a User
+* app_id - This is the "app_id" returned in 1. Create an App
 ```
