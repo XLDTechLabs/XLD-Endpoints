@@ -40,3 +40,9 @@ You can create multiple apps and manage users per app using your Partner Account
 1. **Partner Key** and **Client Secret** - credentials you use to identify you on our platform. Get this on your dashboard.
 2. **User Key** - a unique set of characters to identify users when sending the rewards.
 3. **App ID** - a unique number or username to identify an app.
+
+
+# Coding Time!
+
+<br/>
+
