@@ -126,12 +126,12 @@ Body:
   "user_id": [String],
   "reward": [Double]
 }
+
+* user_id - see **2. Authenticating a User**
 ```
 
 ```
 {
    "status": "SUCCESS"
 }
-```
-* user_id - see **2. Authenticating a User**
 ```
