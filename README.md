@@ -75,6 +75,12 @@ Body:
 }
 ```
 
+```
+{
+  "app_id": [Integer]
+}
+```
+
 ### 2. Authenticating a User
 
 ```
@@ -131,7 +137,53 @@ Body:
 ```
 
 ```
+Response:
 {
    "status": "SUCCESS"
 }
+```
+
+### 4. Check Balance
+
+```
+[GET] /endpoints/balance
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
+Response:
+{
+   "xld": "YOUR_XLD_BALANCE"
+}
+```
+
+### 5. XLD Performance Tracking
+
+This is used to track the Daily Active Users, Monthly Active Users, and Population per app. Call this each time users open the app only when they are logged in.
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
+Body:
+{
+  "app_id": [Integer],
+  "reward": [Double]
+}
+
+* user_id - This is the "id" return in 2. Authenticating a User
 ```
