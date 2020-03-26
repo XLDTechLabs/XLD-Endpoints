@@ -19,10 +19,12 @@ The library we use to:
 
 ## Dashboard
 
-Once the Account Manager gave your credentails, you can visit these dashboard:
+Once the Account Manager gave your credentails, you can visit these dashboard.
 
-**Development**: https://xload-development.appspot.com/endpoints <br/>
+**Development**: https://xload-development.appspot.com/endpoints<br/>
 **Live**: https://www.xload.io/endpoints
+
+**Reminder: Always use the Development Dashboard and Endpoints (see below) if you're testing your app**
 
 
 You can create multiple apps and manage users per app using your Partner Account.
