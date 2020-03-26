@@ -94,7 +94,7 @@ Headers:
 Body:
 {
   "device_id": [String],
-	"app_id": [String]
+  "app_id": [String]
 }
 ```
 
@@ -103,4 +103,35 @@ Response:
 {
   "id": [String]
 }
+```
+
+### 3. Reward Users
+
+```
+[POST] /endpoints/reward
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
+Body:
+{
+  "user_id": [String],
+  "reward": [Double]
+}
+```
+
+```
+{
+   "status": "SUCCESS"
+}
+```
+* user_id - see **2. Authenticating a User**
 ```
