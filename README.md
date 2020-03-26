@@ -1,5 +1,7 @@
 # Welcome to XLD Endpoints
 
+<br/>
+
 ## What is XLD Endpoints
 
 The library we use to:
@@ -17,5 +19,16 @@ The library we use to:
 
 ## Dashboard
 
+Once the Account Manager gave your credentails, you can visit these dashboard:
+
+**Development**: https://xload-development.appspot.com/endpoints
+**Live**: https://www.xload.io/endpoints
+
+
 You can create multiple apps and manage users per app using your Partner Account.
+
+<br/>
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/apps-and-users.jpg"/>
+</p>
 
