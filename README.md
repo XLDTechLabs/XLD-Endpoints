@@ -41,6 +41,7 @@ You can create multiple apps and manage users per app using your Partner Account
 2. **User Key** - a unique set of characters to identify users when sending the rewards.
 3. **App ID** - a unique number or username to identify an app.
 
+<br/><br/>
 
 # Coding Time!
 
