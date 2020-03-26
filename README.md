@@ -8,6 +8,7 @@ The library we use to:
 - Reward XLD to users
 - Convert your own Coins to XLD
 
+<br/>
 <p align="center">
   <img width="400" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/reward-1.jpg"/>
   &nbsp
