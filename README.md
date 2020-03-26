@@ -2,7 +2,7 @@
 
 <br/>
 
-## What is XLD Endpoints
+### What is XLD Endpoints
 
 The library we use to:
 - Authenticate via [XLoad](https://www.xload.io)
@@ -17,7 +17,7 @@ The library we use to:
   <img width="400" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/reward-2.jpg"/>
 </p>
 
-## Dashboard
+### Dashboard
 
 Once the Account Manager gave your credentails, you can visit these dashboard.
 
@@ -35,7 +35,7 @@ You can create multiple apps and manage users per app using your Partner Account
 </p>
 
 
-## Keywords
+### Keywords
 
 1. **Partner Key** and **Client Secret** - credentials you use to identify you on our platform. Get this on your dashboard.
 2. **User Key** - a unique set of characters to identify users when sending the rewards.
@@ -47,3 +47,27 @@ You can create multiple apps and manage users per app using your Partner Account
 
 <br/>
 
+### 1. Create an App
+
+You need an App ID when **Authenticating Users** on the XLD Platform found in step 2.
+ 
+You need to set your **App Name**. The XLoad app will use this when **Rewarding Users** in step 3.
+
+Sample: You received 10 XLD from Hello World.
+
+```
+[POST] /endpoints/app/create
+```
+
+```
+Header:
+- key [String]
+- secret [String]
+```
+ 
+```
+Body:
+{
+  "name": [String]
+}
+```
