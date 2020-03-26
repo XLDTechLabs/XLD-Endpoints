@@ -2,6 +2,6 @@
 
 XLD Endpoints is the library we use to:
 - Authenticate via [XLoad](https://www.xload.io)
-- Link Accounts
+- Link accounts using Wallet Address similar to cryptocurrencies
 - Reward XLD to users
-- Convert you own Coins to XLD
+- Convert your own Coins to XLD
