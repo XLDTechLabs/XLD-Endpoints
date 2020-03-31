@@ -202,3 +202,20 @@ Body:
 
 * app_id - This is the "app_id" returned in 1. Create an App
 ```
+
+# Wallet Linking and Convert to XLD
+
+### 1. Wallet Link
+[POST] /endpoints/link 
+Header:
+- key (From Endpoints)
+- secret (From Endpoints)
+Body:
+{
+     "address": [String]
+     "otp": [Integer]
+     "user_id_from_partner": [String]
+}
+Reminders:
+- All 3 parameters are required or it returns an error
+- Once you set the "user_id_from_partner", it can't be changed. Else, it would return an error 
