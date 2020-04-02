@@ -246,7 +246,7 @@ Body:
 > :warning: Important Reminder: Once you set the "user_id_from_partner" to a wallet, it can't be changed.
 
 ```
-Response:
+Sample Response:
 {
     "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
     "balance": 1000,
@@ -280,7 +280,41 @@ Body:
 ```
 
 ```
-Response:
+Sample Response:
+{
+    "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
+    "balance": 1000,
+    "otp": 569233,
+    "linked": true
+}
+```
+
+
+### 2. Get Wallet Balance and Linking Status
+
+```
+[GET] /endpoints/wallet
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
+Body:
+{
+  "user_id_from_partner": [String]
+}
+
+```
+
+```
+Sample Response:
 {
     "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
     "balance": 1000,
