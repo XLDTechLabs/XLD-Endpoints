@@ -209,7 +209,13 @@ Body:
 
 # Wallet Linking and Convert to XLD
 
-You can now display your coins on the XLoad app and convert it to XLD.
+You can now host your coins on the XLoad app and convert it to XLD.
+
+<br/>
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/XLDTechLabs/XLD-Endpoints/master/assets/convert.jpg"/>
+</p>
+
 
 ### 1. Wallet Linking
 
