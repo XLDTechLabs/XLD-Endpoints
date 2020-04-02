@@ -290,7 +290,7 @@ Sample Response:
 ```
 
 
-### 2. Get Wallet Balance and Linking Status
+### 3. Get Wallet Balance and Linking Status
 
 ```
 [GET] /endpoints/wallet
