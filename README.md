@@ -185,6 +185,10 @@ Response:
 This is used to track the Daily Active Users, Monthly Active Users, and Population per app. Call this each time users open the app only when they are logged in.
 
 ```
+[POST] /endpoints/track
+```
+
+```
 Headers:
 - key [String]
 - secret [String]
@@ -205,17 +209,41 @@ Body:
 
 # Wallet Linking and Convert to XLD
 
-### 1. Wallet Link
+You can now display your coins on the XLoad app and convert it to XLD.
+
+### 1. Wallet Linking
+
+```
 [POST] /endpoints/link 
-Header:
-- key (From Endpoints)
-- secret (From Endpoints)
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
 Body:
 {
-     "address": [String]
-     "otp": [Integer]
-     "user_id_from_partner": [String]
+  "address": [String]
+  "otp": [Integer]
+  "user_id_from_partner": [String]
 }
-Reminders:
-- All 3 parameters are required or it returns an error
-- Once you set the "user_id_from_partner", it can't be changed. Else, it would return an error 
+
+* user_id_from_partner is the unique identifier of a user in your app. This could be a number, email, username, etc. as long as it is unique.
+```
+
+> :warning: Important Reminder: Once you set the "user_id_from_partner" to a wallet, it can't be changed.
+
+```
+{
+    "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
+    "balance": 1000,
+    "otp": 569233,
+    "linked": true
+}
+```
