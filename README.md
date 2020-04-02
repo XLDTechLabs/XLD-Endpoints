@@ -254,3 +254,37 @@ Response:
     "linked": true
 }
 ```
+
+### 2. Set Balance
+
+```
+[POST] /endpoints/balance/set
+```
+
+```
+Headers:
+- key [String]
+- secret [String]
+
+* key is the Partner Key
+* secret is the Client Secret
+```
+
+```
+Body:
+{
+  "balance": [Double],
+  "user_id_from_partner": [String]
+}
+
+```
+
+```
+Response:
+{
+    "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
+    "balance": 1000,
+    "otp": 569233,
+    "linked": true
+}
+```
