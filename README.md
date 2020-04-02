@@ -246,6 +246,7 @@ Body:
 > :warning: Important Reminder: Once you set the "user_id_from_partner" to a wallet, it can't be changed.
 
 ```
+Response:
 {
     "address": "iMzFO9oLliqIGhbcnxTK3pan90pDG3HrEPcEpNz65CBT0aYqWD",
     "balance": 1000,
