@@ -306,11 +306,13 @@ Headers:
 ```
 
 ```
-Body:
+Parameters:
 {
+  "app_id": [Int],
   "user_id_from_partner": [String]
 }
 
+Sample: /endpoints/wallet?app_id=APP_ID&user_id_from_partner=USER_ID_FROM_PARTNER
 ```
 
 ```
