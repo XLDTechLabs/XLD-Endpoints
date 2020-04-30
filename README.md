@@ -21,7 +21,7 @@ The library we use to:
 
 Once the Account Manager gave your credentails, you can visit these dashboard.
 
-**Development**: https://xload-development.appspot.com/endpoints<br/>
+**Development**: https://xld-development.appspot.com/endpoints<br/>
 **Live**: https://www.xload.io/endpoints
 
 > :warning: Important Reminder: Always use the Development Dashboard if you're testing your app.
@@ -37,7 +37,7 @@ Once the Account Manager gave your credentails, you can visit these dashboard.
 
 # Coding Time!
 
-**Development**: https://xload-development.appspot.com<br/>
+**Development**: https://xld-development.appspot.com<br/>
 **Live**: https://www.xload.io
 
 > :warning: Important Reminder: Always use the Development Endpoints (see below) if you're testing your app.
