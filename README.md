@@ -201,7 +201,7 @@ Headers:
 Body:
 {
   "app_id": [Integer],
-  "reward": [Double]
+  "user_id": [Integer]
 }
 
 * app_id - This is the "app_id" returned in 1. Create an App
